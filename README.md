@@ -36,6 +36,13 @@ A Spring Boot application that manages job posts and user authentication using a
 - Swagger UI documentation
 - Automated testing suite
 
+## Performance Considerations
+
+- MongoDB text indexing for efficient search
+- Connection pooling for both databases
+- Proper exception handling and logging
+- Optimized database queries
+
 ## API Endpoints
 
 ### Job Posts
@@ -98,7 +105,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-## 🔒 Security
+## Security
 
 - JWT-based authentication
 - Password encryption using BCrypt
@@ -106,7 +113,7 @@ mvn spring-boot:run
 - Protected endpoints
 - Token expiration handling
 
-## 📊 Testing
+## Testing
 
 The project includes comprehensive unit tests for controllers and services. Run tests using:
 
@@ -114,14 +121,14 @@ The project includes comprehensive unit tests for controllers and services. Run 
 mvn test
 ```
 
-## 📝 Documentation
+## Documentation
 
 Access the API documentation through Swagger UI:
 ```
 http://localhost:8080/swagger-ui.html
 ```
 
-## 🏗 Project Structure
+## Project Structure
 
 ```
 src/
@@ -139,13 +146,6 @@ src/
 └── test/
     └── java/
 ```
-
-## Performance Considerations
-
-- MongoDB text indexing for efficient search
-- Connection pooling for both databases
-- Proper exception handling and logging
-- Optimized database queries
 
 ## Contributing
 
