@@ -1,6 +1,6 @@
 # Spring-Post-Auth-JWT / Job Post Management API
 
-A Spring Boot application that manages job posts and user authentication using a dual-database architecture. The application uses MongoDB for storing job posts and PostgreSQL for user management.
+A Spring Boot application that manages job posts and user authentication using a dual-database architecture. The application uses MongoDB for storing job posts and PostgreSQL for user management. [Use any api tool for testing. Ideally Postman]
 
 ## Technologies Used
 
