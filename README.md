@@ -2,7 +2,7 @@
 
 A Spring Boot application that manages job posts and user authentication using a dual-database architecture. The application uses MongoDB for storing job posts and PostgreSQL for user management.
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **Spring Boot**: Core framework
 - **MongoDB**: For storing job posts data
@@ -13,7 +13,7 @@ A Spring Boot application that manages job posts and user authentication using a
 - **AOP**: For logging and monitoring
 - **JUnit & Mockito**: Testing framework
 
-## 🏗 Architecture
+## Architecture
 
 - **Dual Database Setup**
   - MongoDB for flexible job post storage
@@ -25,7 +25,7 @@ A Spring Boot application that manages job posts and user authentication using a
   - Models: Data structures
   - Security: Authentication and authorization
 
-## 🔑 Key Features
+## Key Features
 
 - CRUD operations for job posts
 - Full-text search capabilities for job posts
@@ -36,7 +36,7 @@ A Spring Boot application that manages job posts and user authentication using a
 - Swagger UI documentation
 - Automated testing suite
 
-## 📝 API Endpoints
+## API Endpoints
 
 ### Job Posts
 - `GET /posts`: Retrieve all posts
@@ -52,7 +52,7 @@ A Spring Boot application that manages job posts and user authentication using a
 - `POST /login`: Authenticate user and get JWT
 - `GET /users`: Get all users (admin access)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - JDK 17 or later
@@ -128,7 +128,7 @@ src/
 ├── main/
 │   ├── java/
 │   │   └── com/
-│   │       └── george/
+│   │       └── g/
 │   │           ├── controller/
 │   │           ├── model/
 │   │           ├── security/
@@ -140,14 +140,14 @@ src/
     └── java/
 ```
 
-## ⚡ Performance Considerations
+## Performance Considerations
 
 - MongoDB text indexing for efficient search
 - Connection pooling for both databases
 - Proper exception handling and logging
 - Optimized database queries
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/<Feature>`)
@@ -155,6 +155,6 @@ src/
 4. Push to the branch (`git push origin feature/<Feature>`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
