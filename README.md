@@ -155,6 +155,12 @@ src/
 4. Push to the branch (`git push origin feature/<Feature>`)
 5. Open a Pull Request
 
+## Acknowledgements
+
+- Code adapted from [Mockito documentation](https://site.mockito.org/) for unit testing.
+- Code adapted from [JWT.io](https://jwt.io/) for token-based authentication.
+- Code adapted from various online resources for Spring Security, Spring Boot, and database configurations.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
